@@ -1,0 +1,483 @@
+{
+  "document_id": "doc_ee0200c2d5c0",
+  "filename": "doc_ee0200c2d5c0.pdf",
+  "file_type": "pdf",
+  "total_pages": 2,
+  "total_blocks": 28,
+  "processing_status": "completed",
+  "pipeline": [
+    "document_detection",
+    "native_text_extraction",
+    "scanned_page_detection",
+    "ocr_routing",
+    "structured_block_generation",
+    "confidence_scoring",
+    "source_traceability"
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "status": "text_detected",
+      "extraction_method": "native_pdf",
+      "native_character_count": 2684,
+      "blocks_extracted": 12
+    },
+    {
+      "page": 2,
+      "status": "text_detected",
+      "extraction_method": "native_pdf",
+      "native_character_count": 777,
+      "blocks_extracted": 16
+    }
+  ],
+  "blocks": [
+    {
+      "id": "block_0001",
+      "type": "text",
+      "content": "Annual Document Processing Report",
+      "page": 1,
+      "reading_order": 1,
+      "bbox": [
+        120.39,
+        55.62,
+        474.89,
+        83.16
+      ],
+      "confidence": 0.98,
+      "review_required": false,
+      "extraction_method": "native_pdf"
+    },
+    {
+      "id": "block_0002",
+      "type": "text",
+      "content": "Prepared by the Data Operations Team  |  October 2026",
+      "page": 1,
+      "reading_order": 2,
+      "bbox": [
+        191.65,
+        84.39,
+        403.63,
+        96.07
+      ],
+      "confidence": 0.98,
+      "review_required": false,
+      "extraction_method": "native_pdf"
+    },
+    {
+      "id": "block_0003",
+      "type": "text",
+      "content": "1. Introduction",
+      "page": 1,
+      "reading_order": 3,
+      "bbox": [
+        62.69,
+        175.17,
+        152.98,
+        193.07
+      ],
+      "confidence": 0.98,
+      "review_required": false,
+      "extraction_method": "native_pdf"
+    },
+    {
+      "id": "block_0004",
+      "type": "text",
+      "content": "3. Challenges",
+      "page": 1,
+      "reading_order": 4,
+      "bbox": [
+        314.98,
+        175.17,
+        398.79,
+        193.07
+      ],
+      "confidence": 0.98,
+      "review_required": false,
+      "extraction_method": "native_pdf"
+    },
+    {
+      "id": "block_0005",
+      "type": "text",
+      "content": "Modern organisations receive documents in many\nshapes: scanned invoices, research papers,\nspreadsheets and slide decks. Extracting reliable\ndata from them requires understanding layout,\nreading order and the type of each content block.\nModern organisations receive documents in many\nshapes: scanned invoices, research papers,\nspreadsheets and slide decks. Extracting reliable\ndata from them requires understanding layout,\nreading order and the type of each content block.\nModern organisations receive documents in many\nshapes: scanned invoices, research papers,\nspreadsheets and slide decks. Extracting reliable\ndata from them requires understanding layout,\nreading order and the type of each content block.",
+      "page": 1,
+      "reading_order": 5,
+      "bbox": [
+        62.69,
+        199.37,
+        272.3,
+        394.42
+      ],
+      "confidence": 0.98,
+      "review_required": false,
+      "extraction_method": "native_pdf"
+    },
+    {
+      "id": "block_0006",
+      "type": "text",
+      "content": "Modern organisations receive documents in many\nshapes: scanned invoices, research papers,\nspreadsheets and slide decks. Extracting reliable\ndata from them requires understanding layout,\nreading order and the type of each content block.\nModern organisations receive documents in many\nshapes: scanned invoices, research papers,\nspreadsheets and slide decks. Extracting reliable\ndata from them requires understanding layout,\nreading order and the type of each content block.",
+      "page": 1,
+      "reading_order": 6,
+      "bbox": [
+        314.98,
+        199.37,
+        524.58,
+        329.42
+      ],
+      "confidence": 0.98,
+      "review_required": false,
+      "extraction_method": "native_pdf"
+    },
+    {
+      "id": "block_0007",
+      "type": "text",
+      "content": "Multi-column layouts and mixed content such as\ntables, charts and equations make naive\ntop-to-bottom text extraction produce scrambled\noutput. Reading order must be reconstructed.",
+      "page": 1,
+      "reading_order": 7,
+      "bbox": [
+        314.98,
+        335.37,
+        517.19,
+        387.42
+      ],
+      "confidence": 0.98,
+      "review_required": false,
+      "extraction_method": "native_pdf"
+    },
+    {
+      "id": "block_0008",
+      "type": "text",
+      "content": "4. Observations",
+      "page": 1,
+      "reading_order": 8,
+      "bbox": [
+        314.98,
+        395.17,
+        412.52,
+        413.07
+      ],
+      "confidence": 0.98,
+      "review_required": false,
+      "extraction_method": "native_pdf"
+    },
+    {
+      "id": "block_0009",
+      "type": "text",
+      "content": "2. Methodology",
+      "page": 1,
+      "reading_order": 9,
+      "bbox": [
+        62.69,
+        402.17,
+        158.03,
+        420.07
+      ],
+      "confidence": 0.98,
+      "review_required": false,
+      "extraction_method": "native_pdf"
+    },
+    {
+      "id": "block_0010",
+      "type": "text",
+      "content": "Modern organisations receive documents in many\nshapes: scanned invoices, research papers,\nspreadsheets and slide decks. Extracting reliable\ndata from them requires understanding layout,\nreading order and the type of each content block.\nModern organisations receive documents in many\nshapes: scanned invoices, research papers,\nspreadsheets and slide decks. Extracting reliable\ndata from them requires understanding layout,\nreading order and the type of each content block.",
+      "page": 1,
+      "reading_order": 10,
+      "bbox": [
+        314.98,
+        419.37,
+        524.58,
+        549.42
+      ],
+      "confidence": 0.98,
+      "review_required": false,
+      "extraction_method": "native_pdf"
+    },
+    {
+      "id": "block_0011",
+      "type": "text",
+      "content": "Modern organisations receive documents in many\nshapes: scanned invoices, research papers,\nspreadsheets and slide decks. Extracting reliable\ndata from them requires understanding layout,\nreading order and the type of each content block.\nModern organisations receive documents in many\nshapes: scanned invoices, research papers,\nspreadsheets and slide decks. Extracting reliable\ndata from them requires understanding layout,\nreading order and the type of each content block.\nModern organisations receive documents in many\nshapes: scanned invoices, research papers,\nspreadsheets and slide decks. Extracting reliable\ndata from them requires understanding layout,\nreading order and the type of each content block.",
+      "page": 1,
+      "reading_order": 11,
+      "bbox": [
+        62.69,
+        426.37,
+        272.3,
+        621.42
+      ],
+      "confidence": 0.98,
+      "review_required": false,
+      "extraction_method": "native_pdf"
+    },
+    {
+      "id": "block_0012",
+      "type": "text",
+      "content": "Page 1",
+      "page": 1,
+      "reading_order": 12,
+      "bbox": [
+        284.96,
+        810.61,
+        310.31,
+        821.6
+      ],
+      "confidence": 0.98,
+      "review_required": false,
+      "extraction_method": "native_pdf"
+    },
+    {
+      "id": "block_0013",
+      "type": "text",
+      "content": "5. Results",
+      "page": 2,
+      "reading_order": 1,
+      "bbox": [
+        62.69,
+        56.11,
+        124.1,
+        74.01
+      ],
+      "confidence": 0.98,
+      "review_required": false,
+      "extraction_method": "native_pdf"
+    },
+    {
+      "id": "block_0014",
+      "type": "text",
+      "content": "Table 1 summarises processing results for each document type tested during the year.",
+      "page": 2,
+      "reading_order": 2,
+      "bbox": [
+        62.69,
+        80.31,
+        426.49,
+        93.36
+      ],
+      "confidence": 0.98,
+      "review_required": false,
+      "extraction_method": "native_pdf"
+    },
+    {
+      "id": "block_0015",
+      "type": "text",
+      "content": "Document Type\nPages\nAccuracy (%)\nAvg. Time (s)",
+      "page": 2,
+      "reading_order": 3,
+      "bbox": [
+        83.95,
+        102.39,
+        495.97,
+        114.79
+      ],
+      "confidence": 0.98,
+      "review_required": false,
+      "extraction_method": "native_pdf"
+    },
+    {
+      "id": "block_0016",
+      "type": "text",
+      "content": "Digital PDF\n1,200\n98.4\n1.2",
+      "page": 2,
+      "reading_order": 4,
+      "bbox": [
+        83.95,
+        120.35,
+        473.97,
+        132.71
+      ],
+      "confidence": 0.98,
+      "review_required": false,
+      "extraction_method": "native_pdf"
+    },
+    {
+      "id": "block_0017",
+      "type": "text",
+      "content": "Scanned Invoice\n860\n93.1\n3.8",
+      "page": 2,
+      "reading_order": 5,
+      "bbox": [
+        83.95,
+        138.35,
+        473.97,
+        150.71
+      ],
+      "confidence": 0.98,
+      "review_required": false,
+      "extraction_method": "native_pdf"
+    },
+    {
+      "id": "block_0018",
+      "type": "text",
+      "content": "Research Paper\n540\n95.7\n2.9",
+      "page": 2,
+      "reading_order": 6,
+      "bbox": [
+        83.95,
+        156.35,
+        473.97,
+        168.71
+      ],
+      "confidence": 0.98,
+      "review_required": false,
+      "extraction_method": "native_pdf"
+    },
+    {
+      "id": "block_0019",
+      "type": "text",
+      "content": "Spreadsheet\n300\n99.2\n0.8",
+      "page": 2,
+      "reading_order": 7,
+      "bbox": [
+        83.95,
+        174.35,
+        473.97,
+        186.71
+      ],
+      "confidence": 0.98,
+      "review_required": false,
+      "extraction_method": "native_pdf"
+    },
+    {
+      "id": "block_0020",
+      "type": "text",
+      "content": "Presentation\n410\n96.0\n2.1",
+      "page": 2,
+      "reading_order": 8,
+      "bbox": [
+        83.95,
+        192.35,
+        473.97,
+        204.71
+      ],
+      "confidence": 0.98,
+      "review_required": false,
+      "extraction_method": "native_pdf"
+    },
+    {
+      "id": "block_0021",
+      "type": "text",
+      "content": "Table 1: Processing results by document type",
+      "page": 2,
+      "reading_order": 9,
+      "bbox": [
+        211.66,
+        217.39,
+        383.62,
+        229.07
+      ],
+      "confidence": 0.98,
+      "review_required": false,
+      "extraction_method": "native_pdf"
+    },
+    {
+      "id": "block_0022",
+      "type": "text",
+      "content": "6. Evaluation Metric",
+      "page": 2,
+      "reading_order": 10,
+      "bbox": [
+        62.69,
+        250.11,
+        184.79,
+        268.01
+      ],
+      "confidence": 0.98,
+      "review_required": false,
+      "extraction_method": "native_pdf"
+    },
+    {
+      "id": "block_0023",
+      "type": "text",
+      "content": "We evaluate extraction quality using the F1 score, defined as the harmonic mean of precision and recall:",
+      "page": 2,
+      "reading_order": 11,
+      "bbox": [
+        62.69,
+        274.31,
+        500.95,
+        287.36
+      ],
+      "confidence": 0.98,
+      "review_required": false,
+      "extraction_method": "native_pdf"
+    },
+    {
+      "id": "block_0024",
+      "type": "text",
+      "content": "7. Trend",
+      "page": 2,
+      "reading_order": 12,
+      "bbox": [
+        62.69,
+        345.96,
+        113.26,
+        363.87
+      ],
+      "confidence": 0.98,
+      "review_required": false,
+      "extraction_method": "native_pdf"
+    },
+    {
+      "id": "block_0025",
+      "type": "text",
+      "content": "8. Conclusion",
+      "page": 2,
+      "reading_order": 13,
+      "bbox": [
+        62.69,
+        563.13,
+        147.93,
+        581.03
+      ],
+      "confidence": 0.98,
+      "review_required": false,
+      "extraction_method": "native_pdf"
+    },
+    {
+      "id": "block_0026",
+      "type": "text",
+      "content": "Accuracy improved steadily across all four quarters. Low-confidence regions should be flagged for human\nreview rather than guessed, ensuring every extracted value remains verifiable against its original location in the\ndocument.",
+      "page": 2,
+      "reading_order": 14,
+      "bbox": [
+        62.69,
+        587.33,
+        528.92,
+        626.38
+      ],
+      "confidence": 0.98,
+      "review_required": false,
+      "extraction_method": "native_pdf"
+    },
+    {
+      "id": "block_0027",
+      "type": "text",
+      "content": "* Values estimated from scanned archive; some figures illegible due to ink smudging.",
+      "page": 2,
+      "reading_order": 15,
+      "bbox": [
+        56.69,
+        795.25,
+        300.9,
+        804.05
+      ],
+      "confidence": 0.98,
+      "review_required": false,
+      "extraction_method": "native_pdf"
+    },
+    {
+      "id": "block_0028",
+      "type": "text",
+      "content": "Page 2",
+      "page": 2,
+      "reading_order": 16,
+      "bbox": [
+        284.96,
+        810.61,
+        310.31,
+        821.6
+      ],
+      "confidence": 0.98,
+      "review_required": false,
+      "extraction_method": "native_pdf"
+    }
+  ]
+}

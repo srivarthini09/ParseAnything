@@ -1,0 +1,193 @@
+{
+  "document_id": "doc_bf3bdd0cd023",
+  "filename": "doc_bf3bdd0cd023.pdf",
+  "file_type": "pdf",
+  "total_pages": 4,
+  "total_blocks": 9,
+  "processing_status": "completed",
+  "pipeline": [
+    "document_detection",
+    "native_text_extraction",
+    "scanned_page_detection",
+    "ocr_routing",
+    "structured_block_generation",
+    "confidence_scoring",
+    "source_traceability"
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "status": "scanned_page",
+      "extraction_method": "tesseract_ocr",
+      "native_character_count": 0,
+      "blocks_extracted": 5
+    },
+    {
+      "page": 2,
+      "status": "scanned_page",
+      "extraction_method": "tesseract_ocr",
+      "native_character_count": 0,
+      "blocks_extracted": 1
+    },
+    {
+      "page": 3,
+      "status": "scanned_page",
+      "extraction_method": "tesseract_ocr",
+      "native_character_count": 0,
+      "blocks_extracted": 3
+    },
+    {
+      "page": 4,
+      "status": "scanned_page",
+      "extraction_method": "tesseract_ocr",
+      "native_character_count": 0,
+      "blocks_extracted": 0
+    }
+  ],
+  "blocks": [
+    {
+      "id": "block_0001",
+      "type": "text",
+      "content": "L",
+      "page": 1,
+      "reading_order": 1,
+      "bbox": [
+        359.0,
+        159.0,
+        367.0,
+        163.5
+      ],
+      "confidence": 0.26,
+      "review_required": true,
+      "extraction_method": "tesseract_ocr"
+    },
+    {
+      "id": "block_0002",
+      "type": "text",
+      "content": "[",
+      "page": 1,
+      "reading_order": 2,
+      "bbox": [
+        349.5,
+        160.0,
+        357.5,
+        163.0
+      ],
+      "confidence": 0.32,
+      "review_required": true,
+      "extraction_method": "tesseract_ocr"
+    },
+    {
+      "id": "block_0003",
+      "type": "text",
+      "content": "o.",
+      "page": 1,
+      "reading_order": 3,
+      "bbox": [
+        217.5,
+        240.5,
+        221.5,
+        247.0
+      ],
+      "confidence": 0.0,
+      "review_required": true,
+      "extraction_method": "tesseract_ocr"
+    },
+    {
+      "id": "block_0004",
+      "type": "text",
+      "content": "me",
+      "page": 1,
+      "reading_order": 4,
+      "bbox": [
+        369.0,
+        311.5,
+        387.0,
+        315.5
+      ],
+      "confidence": 0.85,
+      "review_required": false,
+      "extraction_method": "tesseract_ocr"
+    },
+    {
+      "id": "block_0005",
+      "type": "text",
+      "content": "3",
+      "page": 1,
+      "reading_order": 5,
+      "bbox": [
+        340.0,
+        335.5,
+        344.0,
+        338.5
+      ],
+      "confidence": 0.26,
+      "review_required": true,
+      "extraction_method": "tesseract_ocr"
+    },
+    {
+      "id": "block_0006",
+      "type": "text",
+      "content": "4y)",
+      "page": 2,
+      "reading_order": 1,
+      "bbox": [
+        594.5,
+        62.0,
+        610.0,
+        67.5
+      ],
+      "confidence": 0.0,
+      "review_required": true,
+      "extraction_method": "tesseract_ocr"
+    },
+    {
+      "id": "block_0007",
+      "type": "text",
+      "content": "folie 5 Rea ;",
+      "page": 3,
+      "reading_order": 1,
+      "bbox": [
+        499.5,
+        217.5,
+        663.0,
+        259.0
+      ],
+      "confidence": 0.18,
+      "review_required": true,
+      "extraction_method": "tesseract_ocr"
+    },
+    {
+      "id": "block_0008",
+      "type": "text",
+      "content": "dsertke disk reas wk He a",
+      "page": 3,
+      "reading_order": 2,
+      "bbox": [
+        467.0,
+        226.0,
+        676.0,
+        287.0
+      ],
+      "confidence": 0.34,
+      "review_required": true,
+      "extraction_method": "tesseract_ocr"
+    },
+    {
+      "id": "block_0009",
+      "type": "text",
+      "content": "pee",
+      "page": 3,
+      "reading_order": 3,
+      "bbox": [
+        475.0,
+        257.5,
+        598.0,
+        281.5
+      ],
+      "confidence": 0.12,
+      "review_required": true,
+      "extraction_method": "tesseract_ocr"
+    }
+  ]
+}

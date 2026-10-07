@@ -1,0 +1,89 @@
+{
+  "document_id": "doc_8e4c55e27c82",
+  "filename": "doc_8e4c55e27c82.csv",
+  "file_type": "csv",
+  "total_pages": 1,
+  "total_blocks": 1,
+  "total_text_blocks": 0,
+  "total_table_blocks": 1,
+  "total_tables": 1,
+  "processing_status": "completed",
+  "pipeline": [
+    "document_detection",
+    "csv_extraction",
+    "structured_block_generation",
+    "confidence_scoring",
+    "source_traceability"
+  ],
+  "quality_filters": {
+    "minimum_table_rows": 1,
+    "minimum_table_columns": 2,
+    "table_review_threshold": 0.7
+  },
+  "confidence_summary": {
+    "high": 1,
+    "medium": 0,
+    "low": 0,
+    "review_required": 0
+  },
+  "pages": [
+    {
+      "page": 1,
+      "status": "structured_table",
+      "extraction_method": "pandas_csv",
+      "native_character_count": 115,
+      "blocks_extracted": 1,
+      "tables_detected": 1
+    }
+  ],
+  "blocks": [
+    {
+      "id": "block_0001",
+      "type": "table",
+      "content": {
+        "headers": [
+          "Region",
+          "Sales",
+          "Operating Cost",
+          "Net Margin"
+        ],
+        "rows": [
+          [
+            "North America",
+            "142.50",
+            "88.20",
+            "38.1%"
+          ],
+          [
+            "Western Europe",
+            "98.15",
+            "61.40",
+            "37.4%"
+          ],
+          [
+            "Asia Pacific",
+            "215.80",
+            "112.95",
+            "47.7%"
+          ],
+          [
+            "Latin America",
+            "64.20",
+            "49.10",
+            "23.5%"
+          ]
+        ],
+        "row_count": 4,
+        "column_count": 4
+      },
+      "page": 1,
+      "reading_order": 1,
+      "bbox": null,
+      "confidence": 0.99,
+      "confidence_level": "high",
+      "review_required": false,
+      "extraction_method": "pandas_csv",
+      "table_index": 1
+    }
+  ]
+}

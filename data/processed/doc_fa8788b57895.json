@@ -1,0 +1,162 @@
+{
+  "document_id": "doc_fa8788b57895",
+  "file_type": "docx",
+  "total_pages": 1,
+  "total_blocks": 8,
+  "total_text_blocks": 7,
+  "total_table_blocks": 1,
+  "total_tables": 1,
+  "processing_status": "completed",
+  "pipeline": [
+    "document_detection",
+    "docx_paragraph_extraction",
+    "docx_table_extraction",
+    "structured_block_generation",
+    "confidence_scoring",
+    "source_traceability"
+  ],
+  "confidence_summary": {
+    "high": 8,
+    "medium": 0,
+    "low": 0,
+    "review_required": 0
+  },
+  "pages": [
+    {
+      "page": 1,
+      "status": "structured",
+      "extraction_method": "python_docx",
+      "block_count": 8,
+      "table_count": 1
+    }
+  ],
+  "blocks": [
+    {
+      "id": "block_0001",
+      "type": "text",
+      "content": "ParseAnything Document Report",
+      "page": 1,
+      "reading_order": 1,
+      "bbox": null,
+      "confidence": 0.95,
+      "confidence_level": "high",
+      "review_required": false,
+      "extraction_method": "python_docx"
+    },
+    {
+      "id": "block_0002",
+      "type": "text",
+      "content": "Universal Document Ingestion System",
+      "page": 1,
+      "reading_order": 2,
+      "bbox": null,
+      "confidence": 0.95,
+      "confidence_level": "high",
+      "review_required": false,
+      "extraction_method": "python_docx"
+    },
+    {
+      "id": "block_0003",
+      "type": "text",
+      "content": "Sales Summary",
+      "page": 1,
+      "reading_order": 3,
+      "bbox": null,
+      "confidence": 0.95,
+      "confidence_level": "high",
+      "review_required": false,
+      "extraction_method": "python_docx"
+    },
+    {
+      "id": "block_0004",
+      "type": "text",
+      "content": "North America: 142.50",
+      "page": 1,
+      "reading_order": 4,
+      "bbox": null,
+      "confidence": 0.95,
+      "confidence_level": "high",
+      "review_required": false,
+      "extraction_method": "python_docx"
+    },
+    {
+      "id": "block_0005",
+      "type": "text",
+      "content": "Western Europe: 98.15",
+      "page": 1,
+      "reading_order": 5,
+      "bbox": null,
+      "confidence": 0.95,
+      "confidence_level": "high",
+      "review_required": false,
+      "extraction_method": "python_docx"
+    },
+    {
+      "id": "block_0006",
+      "type": "text",
+      "content": "Asia Pacific: 215.80",
+      "page": 1,
+      "reading_order": 6,
+      "bbox": null,
+      "confidence": 0.95,
+      "confidence_level": "high",
+      "review_required": false,
+      "extraction_method": "python_docx"
+    },
+    {
+      "id": "block_0007",
+      "type": "text",
+      "content": "Latin America: 64.20",
+      "page": 1,
+      "reading_order": 7,
+      "bbox": null,
+      "confidence": 0.95,
+      "confidence_level": "high",
+      "review_required": false,
+      "extraction_method": "python_docx"
+    },
+    {
+      "id": "block_0008",
+      "type": "table",
+      "content": {
+        "headers": [
+          "Region",
+          "Sales",
+          "Net Margin"
+        ],
+        "rows": [
+          [
+            "North America",
+            "142.50",
+            "38.1%"
+          ],
+          [
+            "Western Europe",
+            "98.15",
+            "37.4%"
+          ],
+          [
+            "Asia Pacific",
+            "215.80",
+            "47.7%"
+          ],
+          [
+            "Latin America",
+            "64.20",
+            "23.5%"
+          ]
+        ]
+      },
+      "page": 1,
+      "reading_order": 8,
+      "bbox": null,
+      "confidence": 0.95,
+      "confidence_level": "high",
+      "review_required": false,
+      "extraction_method": "python_docx",
+      "table_index": 1,
+      "row_count": 4,
+      "column_count": 3
+    }
+  ]
+}

@@ -1,0 +1,357 @@
+{
+  "document_id": "doc_0122df3edab0",
+  "filename": "doc_0122df3edab0.pdf",
+  "file_type": "pdf",
+  "total_pages": 1,
+  "total_blocks": 15,
+  "total_text_blocks": 14,
+  "total_table_blocks": 1,
+  "total_tables": 1,
+  "processing_status": "completed",
+  "pipeline": [
+    "document_detection",
+    "native_text_extraction",
+    "scanned_page_detection",
+    "ocr_routing",
+    "ocr_quality_filtering",
+    "table_detection",
+    "table_extraction",
+    "structured_block_generation",
+    "reading_order_reconstruction",
+    "confidence_scoring",
+    "source_traceability"
+  ],
+  "quality_filters": {
+    "minimum_text_length": 2,
+    "minimum_bbox_width": 3.0,
+    "minimum_bbox_height": 3.0,
+    "minimum_bbox_area": 20.0,
+    "minimum_meaningful_confidence": 0.25,
+    "low_confidence_threshold": 0.7,
+    "medium_confidence_threshold": 0.9,
+    "minimum_table_rows": 1,
+    "minimum_table_columns": 2,
+    "table_review_threshold": 0.7
+  },
+  "confidence_summary": {
+    "high": 15,
+    "medium": 0,
+    "low": 0,
+    "review_required": 0
+  },
+  "pages": [
+    {
+      "page": 1,
+      "status": "text_detected",
+      "extraction_method": "native_pdf",
+      "native_character_count": 1200,
+      "blocks_extracted": 15,
+      "tables_detected": 1
+    }
+  ],
+  "blocks": [
+    {
+      "id": "block_0001",
+      "type": "text",
+      "content": "Sample 1: Wired Table Structure (Lattice Test)",
+      "page": 1,
+      "reading_order": 1,
+      "bbox": [
+        78.75,
+        78.75,
+        470.03,
+        98.84
+      ],
+      "confidence": 0.98,
+      "confidence_level": "high",
+      "review_required": false,
+      "extraction_method": "native_pdf"
+    },
+    {
+      "id": "block_0002",
+      "type": "text",
+      "content": "This table features explicit vector line boundaries (1px solid borders) bounding every individual cell. It\nincludes merged column headers (colspan) and complex nested fields to test geometric lattice cell\nsplitting algorithms.",
+      "page": 1,
+      "reading_order": 2,
+      "bbox": [
+        78.75,
+        120.92,
+        513.88,
+        161.05
+      ],
+      "confidence": 0.98,
+      "confidence_level": "high",
+      "review_required": false,
+      "extraction_method": "native_pdf"
+    },
+    {
+      "id": "block_0003",
+      "type": "table",
+      "content": {
+        "headers": [
+          "Region Code",
+          "Territory Name",
+          "Q1 - 2026 Fiscal Performance Metrics",
+          "",
+          ""
+        ],
+        "rows": [
+          [
+            "",
+            "",
+            "Gross Sales ($M)",
+            "Operating Cost ($M)",
+            "Net Margin (%)"
+          ],
+          [
+            "REG-0192",
+            "North America (East)",
+            "142.50",
+            "88.20",
+            "38.1%"
+          ],
+          [
+            "REG-0481",
+            "Western Europe (APAC Corporate)",
+            "98.15",
+            "61.40",
+            "37.4%"
+          ],
+          [
+            "REG-0994",
+            "Asia Pacific (South)",
+            "215.80",
+            "112.95",
+            "47.7%"
+          ],
+          [
+            "REG-1102",
+            "Latin America (Mercosur)",
+            "64.20",
+            "49.10",
+            "23.5%"
+          ]
+        ],
+        "row_count": 5,
+        "column_count": 5
+      },
+      "page": 1,
+      "reading_order": 3,
+      "bbox": [
+        78.95,
+        178.26,
+        516.31,
+        335.3
+      ],
+      "confidence": 0.93,
+      "confidence_level": "high",
+      "review_required": false,
+      "extraction_method": "pymupdf_table_extractor",
+      "table_index": 1
+    },
+    {
+      "id": "block_0004",
+      "type": "text",
+      "content": "Sample 2: Wireless Table Structure (Stream /\nWhitespace Test)",
+      "page": 1,
+      "reading_order": 4,
+      "bbox": [
+        78.75,
+        365.62,
+        460.4,
+        405.81
+      ],
+      "confidence": 0.98,
+      "confidence_level": "high",
+      "review_required": false,
+      "extraction_method": "native_pdf"
+    },
+    {
+      "id": "block_0005",
+      "type": "text",
+      "content": "This table contains no vertical or internal horizontal grid lines. Extraction tools must rely purely on the\ncoordinate alignment of character tokens (whitespace gaps) to reconstruct column boundaries.",
+      "page": 1,
+      "reading_order": 5,
+      "bbox": [
+        78.75,
+        427.89,
+        513.34,
+        453.4
+      ],
+      "confidence": 0.98,
+      "confidence_level": "high",
+      "review_required": false,
+      "extraction_method": "native_pdf"
+    },
+    {
+      "id": "block_0006",
+      "type": "text",
+      "content": "Item ID\nProduct Classification Description\nUnits",
+      "page": 1,
+      "reading_order": 6,
+      "bbox": [
+        87.75,
+        474.77,
+        372.83,
+        489.84
+      ],
+      "confidence": 0.98,
+      "confidence_level": "high",
+      "review_required": false,
+      "extraction_method": "native_pdf"
+    },
+    {
+      "id": "block_0007",
+      "type": "text",
+      "content": "Unit\nPrice",
+      "page": 1,
+      "reading_order": 7,
+      "bbox": [
+        409.55,
+        474.77,
+        431.57,
+        494.87
+      ],
+      "confidence": 0.98,
+      "confidence_level": "high",
+      "review_required": false,
+      "extraction_method": "native_pdf"
+    },
+    {
+      "id": "block_0008",
+      "type": "text",
+      "content": "Total\nRevenue",
+      "page": 1,
+      "reading_order": 8,
+      "bbox": [
+        470.01,
+        474.77,
+        507.53,
+        494.87
+      ],
+      "confidence": 0.98,
+      "confidence_level": "high",
+      "review_required": false,
+      "extraction_method": "native_pdf"
+    },
+    {
+      "id": "block_0009",
+      "type": "text",
+      "content": "Sold",
+      "page": 1,
+      "reading_order": 9,
+      "bbox": [
+        353.33,
+        484.83,
+        372.83,
+        494.87
+      ],
+      "confidence": 0.98,
+      "confidence_level": "high",
+      "review_required": false,
+      "extraction_method": "native_pdf"
+    },
+    {
+      "id": "block_0010",
+      "type": "text",
+      "content": "PRD-\nX91\nEnterprise Cloud Compute Node (Tier 4)\n1,240\n450.00\n558,000.00",
+      "page": 1,
+      "reading_order": 10,
+      "bbox": [
+        87.75,
+        505.01,
+        507.52,
+        525.11
+      ],
+      "confidence": 0.98,
+      "confidence_level": "high",
+      "review_required": false,
+      "extraction_method": "native_pdf"
+    },
+    {
+      "id": "block_0011",
+      "type": "text",
+      "content": "PRD-\nM42",
+      "page": 1,
+      "reading_order": 11,
+      "bbox": [
+        87.75,
+        534.12,
+        109.75,
+        554.22
+      ],
+      "confidence": 0.98,
+      "confidence_level": "high",
+      "review_required": false,
+      "extraction_method": "native_pdf"
+    },
+    {
+      "id": "block_0012",
+      "type": "text",
+      "content": "Managed Kubernetes Cluster\nOrchestration Suite\n45\n2,100.00\n94,500.00",
+      "page": 1,
+      "reading_order": 12,
+      "bbox": [
+        142.06,
+        534.12,
+        507.52,
+        554.22
+      ],
+      "confidence": 0.98,
+      "confidence_level": "high",
+      "review_required": false,
+      "extraction_method": "native_pdf"
+    },
+    {
+      "id": "block_0013",
+      "type": "text",
+      "content": "PRD-\nS12",
+      "page": 1,
+      "reading_order": 13,
+      "bbox": [
+        87.75,
+        563.23,
+        109.75,
+        583.32
+      ],
+      "confidence": 0.98,
+      "confidence_level": "high",
+      "review_required": false,
+      "extraction_method": "native_pdf"
+    },
+    {
+      "id": "block_0014",
+      "type": "text",
+      "content": "Serverless Database Storage Volume (per\nTB)\n8,912\n12.50\n111,400.00",
+      "page": 1,
+      "reading_order": 14,
+      "bbox": [
+        142.06,
+        563.23,
+        507.52,
+        583.32
+      ],
+      "confidence": 0.98,
+      "confidence_level": "high",
+      "review_required": false,
+      "extraction_method": "native_pdf"
+    },
+    {
+      "id": "block_0015",
+      "type": "text",
+      "content": "Total\nAggregate System Output Summary\n10,197\n—\n763,900.00",
+      "page": 1,
+      "reading_order": 15,
+      "bbox": [
+        87.75,
+        593.09,
+        507.52,
+        603.13
+      ],
+      "confidence": 0.98,
+      "confidence_level": "high",
+      "review_required": false,
+      "extraction_method": "native_pdf"
+    }
+  ]
+}
