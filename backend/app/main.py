@@ -46,14 +46,10 @@ app.add_middleware(
 # TESSERACT CONFIGURATION
 # ============================================================
 
-TESSERACT_PATH = (
-    r"C:\Program Files\Tesseract-OCR\tesseract.exe"
-)
+TESSERACT_PATH = os.environ.get("TESSERACT_PATH", "tesseract")
 
 if os.path.exists(TESSERACT_PATH):
-    pytesseract.pytesseract.tesseract_cmd = (
-        TESSERACT_PATH
-    )
+    pytesseract.pytesseract.tesseract_cmd = TESSERACT_PATH
 
 
 # ============================================================
