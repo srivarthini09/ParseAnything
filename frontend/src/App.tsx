@@ -7,7 +7,7 @@ import {
 
 import "./App.css";
 
-const API_BASE_URL = "http://localhost:8001";
+const API_BASE_URL = "https://parseanything.onrender.com";
 
 type ConfidenceLevel = "high" | "medium" | "low";
 
